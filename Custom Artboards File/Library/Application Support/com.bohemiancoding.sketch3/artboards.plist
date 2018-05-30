@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Custom</string>
+		<key>presets</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>⬇ DESKTOPS ⬇</string>
+			</dict>
+			<dict>
+				<key>imageName</key>
+				<string>artboard_device_desktop</string>
+				<key>height</key>
+				<integer>768</integer>
+				<key>name</key>
+				<string>1366 x 768</string>
+				<key>width</key>
+				<integer>1366</integer>
+			</dict>
+			<dict>
+				<key>imageName</key>
+				<string>artboard_device_desktop</string>
+				<key>height</key>
+				<integer>1080</integer>
+				<key>name</key>
+				<string>1920 x 1080</string>
+				<key>width</key>
+				<integer>1920</integer>
+			</dict>
+			<dict>
+				<key>imageName</key>
+				<string>artboard_device_desktop</string>
+				<key>height</key>
+				<integer>900</integer>
+				<key>name</key>
+				<string>1440 x 900</string>
+				<key>width</key>
+				<integer>1440</integer>
+			</dict>
+			<dict>
+				<key>imageName</key>
+				<string>artboard_device_desktop</string>
+				<key>height</key>
+				<integer>800</integer>
+				<key>name</key>
+				<string>1280 x 800</string>
+				<key>width</key>
+				<integer>1280</integer>
+			</dict>
+			<dict>
+				<key>imageName</key>
+				<string>artboard_device_desktop</string>
+				<key>height</key>
+				<integer>900</integer>
+				<key>name</key>
+				<string>1600 x 900</string>
+				<key>width</key>
+				<integer>1600</integer>
+			</dict>
+			<dict>
+				<key>imageName</key>
+				<string>artboard_device_desktop</string>
+				<key>height</key>
+				<integer>864</integer>
+				<key>name</key>
+				<string>1536 x 864</string>
+				<key>width</key>
+				<integer>1536</integer>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>⬇ TABLETS ⬇</string>
+			</dict>
+			<dict>
+				<key>imageName</key>
+				<string>artboard_device_tablet</string>
+				<key>height</key>
+				<integer>1024</integer>
+				<key>name</key>
+				<string>768 x 1024</string>
+				<key>width</key>
+				<integer>768</integer>
+			</dict>
+			<dict>
+				<key>imageName</key>
+				<string>artboard_device_tablet</string>
+				<key>height</key>
+				<integer>800</integer>
+				<key>name</key>
+				<string>1280 x 800</string>
+				<key>width</key>
+				<integer>1280</integer>
+			</dict>
+			<dict>
+				<key>imageName</key>
+				<string>artboard_device_tablet</string>
+				<key>height</key>
+				<integer>1366</integer>
+				<key>name</key>
+				<string>1024 x 1366</string>
+				<key>width</key>
+				<integer>1024</integer>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>⬇ MOBILE ⬇</string>
+			</dict>
+			<dict>
+				<key>imageName</key>
+				<string>artboard_device_phone</string>
+				<key>height</key>
+				<integer>640</integer>
+				<key>name</key>
+				<string>360 x 640</string>
+				<key>width</key>
+				<integer>360</integer>
+			</dict>
+			<dict>
+				<key>imageName</key>
+				<string>artboard_device_phone</string>
+				<key>height</key>
+				<integer>667</integer>
+				<key>name</key>
+				<string>375 x 667</string>
+				<key>width</key>
+				<integer>375</integer>
+			</dict>
+			<dict>
+				<key>imageName</key>
+				<string>artboard_device_phone</string>
+				<key>height</key>
+				<integer>736</integer>
+				<key>name</key>
+				<string>414 x 736</string>
+				<key>width</key>
+				<integer>414</integer>
+			</dict>
+			<dict>
+				<key>imageName</key>
+				<string>artboard_device_phone</string>
+				<key>height</key>
+				<integer>568</integer>
+				<key>name</key>
+				<string>320 x 568</string>
+				<key>width</key>
+				<integer>320</integer>
+			</dict>
+			<dict>
+				<key>imageName</key>
+				<string>artboard_device_phone</string>
+				<key>height</key>
+				<integer>732</integer>
+				<key>name</key>
+				<string>412x732</string>
+				<key>width</key>
+				<integer>412</integer>
+			</dict>
+			<dict>
+				<key>imageName</key>
+				<string>artboard_device_phone</string>
+				<key>height</key>
+				<integer>570</integer>
+				<key>name</key>
+				<string>320 x 570</string>
+				<key>width</key>
+				<integer>320</integer>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>
