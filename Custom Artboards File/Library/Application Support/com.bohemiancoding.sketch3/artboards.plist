@@ -9,7 +9,7 @@
 		<array>
 			<dict>
 				<key>name</key>
-				<string>⬇ DESKTOPS ⬇</string>
+				<string>DESKTOPS   ————————————</string>
 			</dict>
 			<dict>
 				<key>imageName</key>
@@ -73,7 +73,7 @@
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>⬇ TABLETS ⬇</string>
+				<string>TABLETS   —————————————</string>
 			</dict>
 			<dict>
 				<key>imageName</key>
@@ -107,7 +107,7 @@
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>⬇ MOBILE ⬇</string>
+				<string>MOBILE   ——————————————</string>
 			</dict>
 			<dict>
 				<key>imageName</key>
