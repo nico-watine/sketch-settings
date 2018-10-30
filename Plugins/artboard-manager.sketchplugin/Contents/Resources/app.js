@@ -1,0 +1,13 @@
+!function(e){var t={};function n(o){if(t[o])return t[o].exports;var r=t[o]={i:o,l:!1,exports:{}};return e[o].call(r.exports,r,r.exports,n),r.l=!0,r.exports}n.m=e,n.c=t,n.d=function(e,t,o){n.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:o})},n.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},n.t=function(e,t){if(1&t&&(e=n(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var o=Object.create(null);if(n.r(o),Object.defineProperty(o,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var r in e)n.d(o,r,function(t){return e[t]}.bind(null,r));return o},n.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return n.d(t,"a",t),t},n.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},n.p="",n(n.s="./resources/app.js")}({"./node_modules/sketch-module-web-view/client.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/sketch-module-web-view/client.js ***!
+  \*******************************************************/
+/*! no static exports found */function(e,t,n){var o=n(/*! ./lib/constants */"./node_modules/sketch-module-web-view/lib/constants.js");e.exports=function(e){if(!e)throw new Error("missing action name");window[o.JS_BRIDGE].callNative(JSON.stringify([].slice.call(arguments)))}},"./node_modules/sketch-module-web-view/lib/constants.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/sketch-module-web-view/lib/constants.js ***!
+  \**************************************************************/
+/*! no static exports found */function(e,t){e.exports={JS_BRIDGE:"__skpm_sketchBridge"}},"./resources/app.js":
+/*!**************************!*\
+  !*** ./resources/app.js ***!
+  \**************************/
+/*! no exports provided */function(e,t,n){"use strict";n.r(t);var o=n(/*! sketch-module-web-view/client */"./node_modules/sketch-module-web-view/client.js"),r=n.n(o);document.addEventListener("contextmenu",function(e){return e.preventDefault()});var i=[];["gridHorizontalSpace","gridVerticalSpace","snapDistance","renameArtboards","arrangeOnAdd"].forEach(function(e){i.push(document.getElementById(e))});!function e(){void 0===window.settings&&e(),i.forEach(function(e){"checkbox"===e.type?e.checked=window.settings[e.id]:e.value=window.settings[e.id]})}(),document.getElementById("submit").addEventListener("click",function(){r()("updateSettings",function(){var e={};return i.forEach(function(t){var n=Number(t.value);"checkbox"===t.type?n=Boolean(t.checked):"text"===t.type&&(n=t.value),e[t.id]=n}),e}())})}});
